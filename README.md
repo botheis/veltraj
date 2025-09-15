@@ -4,10 +4,10 @@ Veltraj
 Author : Botheis
 
 # What is veltraj ?
+
 Veltraj is a bikes manager for personnal usage. The purpose of this manager is to be able to add bikes, describes its embedded accessories and gives some monitoring info.
 
 # Behaviours
-
 
 Status:
 - [x] available functionnalities
@@ -49,7 +49,17 @@ There is a list of functionnalities, which defines the goals of the project. The
 
 
 # Requirements
+
 - debian 12
-- apache2 server
-- php
-- mariadb-server
+
+# How to install
+
+First you have to clone the repository:
+      
+    git clone git@github.com:botheis/veltraj.git
+
+Then you have to run the setup.sh script:
+
+    sudo /path/to/veltraj/setup.sh
+
+Theorically it should do all the job.
