@@ -1,0 +1,22 @@
+{
+    "name": "noel/veltraj",
+    "description": "Web interface to manage bikes",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Noel\\Veltraj\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "botheis",
+            "email": "nkneib@medulla-tech.io"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.10"
+    },
+    "require-dev":{
+        "phpunit/phpunit": "^11.5"
+    }
+}
