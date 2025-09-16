@@ -11,11 +11,11 @@ CURRENT_PATH=$(pwd)
 PROJECT_NAME=veltraj
 DEST_PATH=/usr/share/$PROJECT_NAME
 CONFIG_FILE=/usr/share/$PROJECT_NAME/include/config.ini
-DEPENDENCIES=("apache2" "mariadb-server" "php" "php-mysql", "php-curl")
+DEPENDENCIES=("apache2" "mariadb-server" "php" "php8.4-mysql" "php-curl" "composer")
 APACHE2_MODS=("rewrite")
 SITE_PORT=8081
 SQL_SCHEMAS=$(ls $SRC_PATH/schemas/schema-*.sql)
-CLEANUP_FILES=("vhost.conf" "setup.sh", "composer.lock")
+CLEANUP_FILES=("vhost.conf" "setup.sh"  "composer.lock")
 
 DBHOST=localhost
 DBPORT=3306
