@@ -6,6 +6,6 @@ class Bike extends \Core\Controller{
 
     static public function list(){
 
-        echo "\Controllers\Bike::list";
+        static::render("Bikes.list");
     }
 }

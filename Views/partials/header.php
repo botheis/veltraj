@@ -1,0 +1,3 @@
+HEADER
+
+@render(partials.menu);
