@@ -97,7 +97,7 @@ change_mysql_password(){
         echo
         echo "New password for $PROJECT_NAME@$DBHOST : "
         read -s password
-        echo "Retype the new password for $PROJECT_NAME@DBHOST : "
+        echo "Retype the new password for $PROJECT_NAME@$DBHOST : "
         read -s repassword
         echo 
 
